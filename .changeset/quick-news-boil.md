@@ -1,5 +1,0 @@
----
-"developer": major
----
-
-Init
