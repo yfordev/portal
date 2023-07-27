@@ -9,7 +9,7 @@
     "rm:next": "find ./ -name '.next' -exec rm -rf {} +",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "publish": "changeset publish"
+    "release": "changeset publish"
   },
   "keywords": [],
   "author": "",
