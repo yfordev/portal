@@ -1,5 +1,11 @@
 # developer
 
+## 1.0.4
+
+### Patch Changes
+
+- [#7](https://github.com/yfordev/portal/pull/7) [`49b720d`](https://github.com/yfordev/portal/commit/49b720dec550b88c02dd00b65e78fd713ba21d28) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - fix: every thing
+
 ## 1.0.3
 
 ### Patch Changes
