@@ -8,7 +8,8 @@
     "rm:nm": "find ./ -name 'node_modules' -exec rm -rf {} +",
     "rm:next": "find ./ -name '.next' -exec rm -rf {} +",
     "changeset": "changeset",
-    "version-packages": "changeset version"
+    "version-packages": "changeset version",
+    "publish": "changeset publish"
   },
   "keywords": [],
   "author": "",
