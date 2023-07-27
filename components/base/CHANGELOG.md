@@ -1,5 +1,15 @@
 # base
 
+## 1.1.0
+
+### Minor Changes
+
+- 10f009a: fix: change comment
+
+### Patch Changes
+
+- aa35ad6: feat: release base v1
+
 ## 1.0.0
 
 ### Major Changes

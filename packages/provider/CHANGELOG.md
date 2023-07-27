@@ -1,5 +1,11 @@
 # provider
 
+## 0.1.2
+
+### Patch Changes
+
+- aa35ad6: feat: release base v1
+
 ## 0.1.1
 
 ### Patch Changes
