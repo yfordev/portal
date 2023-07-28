@@ -53,7 +53,7 @@ jobs:
         run: pnpm install
 
       - name: Create Release Pull Request
-        uses: changesets/action@v1
+        uses: gnosis/changesets-action-github-releases@v1.2.0
         with:
           publish: pnpm release
         env:
