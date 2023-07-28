@@ -1,5 +1,11 @@
 # provider
 
+## 0.1.3
+
+### Patch Changes
+
+- [#10](https://github.com/yfordev/portal/pull/10) [`bb815bb`](https://github.com/yfordev/portal/commit/bb815bbb58e093ff29f0fff5b7898798980020a6) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - fix
+
 ## 0.1.2
 
 ### Patch Changes
