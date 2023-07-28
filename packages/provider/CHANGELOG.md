@@ -1,5 +1,11 @@
 # provider
 
+## 0.1.4
+
+### Patch Changes
+
+- [#13](https://github.com/yfordev/portal/pull/13) [`1400fa4`](https://github.com/yfordev/portal/commit/1400fa480f7c72c2c140d1a35b52d60a28476ffd) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - fix: rm
+
 ## 0.1.3
 
 ### Patch Changes
