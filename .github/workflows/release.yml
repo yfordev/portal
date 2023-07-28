@@ -53,6 +53,6 @@ jobs:
         run: pnpm install
 
       - name: Create Release Pull Request
-        uses: gnosis/changesets-action-github-releases@v1.2.0
+        uses: SkyeYoung/changesets-no-npm-action@v1.2.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
