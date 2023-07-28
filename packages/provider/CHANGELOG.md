@@ -1,5 +1,11 @@
 # provider
 
+## 0.1.6
+
+### Patch Changes
+
+- [`025a456`](https://github.com/yfordev/portal/commit/025a456e06988b3b12e559fc965d6da54751e405) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - fix
+
 ## 0.1.5
 
 ### Patch Changes
