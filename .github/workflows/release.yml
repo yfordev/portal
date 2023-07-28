@@ -54,5 +54,7 @@ jobs:
 
       - name: Create Release Pull Request
         uses: SkyeYoung/changesets-no-npm-action@v1.4.7
+        with:
+          publish: pnpm release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
