@@ -1,5 +1,11 @@
 # provider
 
+## 0.1.4
+
+### Patch Changes
+
+- [#15](https://github.com/yfordev/portal/pull/15) [`4a9fbd2`](https://github.com/yfordev/portal/commit/4a9fbd2606688ab106d7c60af235315179f03944) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - fix: trigger version
+
 ## 0.1.3
 
 ### Patch Changes
