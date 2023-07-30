@@ -1,5 +1,13 @@
 # base
 
+## 1.1.3
+
+### Patch Changes
+
+- [#28](https://github.com/yfordev/portal/pull/28) [`9655b98`](https://github.com/yfordev/portal/commit/9655b981b91ce0bde4ccb645b4d718a8d8e90537) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - fix: all
+
+- [#28](https://github.com/yfordev/portal/pull/28) [`f3fdcee`](https://github.com/yfordev/portal/commit/f3fdcee5758f88c6dfaf7224690f4cad54329a1d) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - fix: all
+
 ## 1.1.2
 
 ### Patch Changes
