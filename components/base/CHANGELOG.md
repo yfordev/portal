@@ -1,5 +1,11 @@
 # base
 
+## 1.1.2
+
+### Patch Changes
+
+- [#25](https://github.com/yfordev/portal/pull/25) [`838a302`](https://github.com/yfordev/portal/commit/838a302695e525deedb914f46488713d5d6fb7f5) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - fix:
+
 ## 1.1.1
 
 ### Patch Changes
