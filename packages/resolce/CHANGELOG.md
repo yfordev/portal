@@ -1,5 +1,12 @@
 # resolce
 
+## 0.1.6
+
+### Patch Changes
+
+- Updated dependencies [[`ac1c132`](https://github.com/yfordev/portal/commit/ac1c132c6ab86029aff4c8c9b384d4743e1cc98e)]:
+  - base@1.1.4
+
 ## 0.1.5
 
 ### Patch Changes
