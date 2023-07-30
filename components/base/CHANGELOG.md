@@ -1,5 +1,11 @@
 # base
 
+## 1.1.1
+
+### Patch Changes
+
+- [#23](https://github.com/yfordev/portal/pull/23) [`6aec4d8`](https://github.com/yfordev/portal/commit/6aec4d8bf54033c246a5dcf5f8b3c4f7d97e9d9a) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - chore: test
+
 ## 1.1.0
 
 ### Minor Changes
