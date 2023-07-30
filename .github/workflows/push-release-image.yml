@@ -39,19 +39,20 @@ jobs:
         with:
           node-version: '16'
 
-      # - name: Build ${{ env.P_NAME } }  Image
-      # env:
-      # IMAGE_TAG: ${{ env.P_VER } }
-      # run: |
-      # variables=("P_VER" "P_NAME" "P_PATH")
-      # for var in "${variables[@]}"; do
-      #   if [[ -z "${{ env[$var]" } }]]; then
-      #     echo "环境变量 $var 不存在"
-      #     exit 1
-      #   else
-      #     echo "环境变量 $var 存在"
-      #   fi
-      # done
+      - name: Build ${{ env.P_NAME }}  Image
+        env:
+          IMAGE_TAG: ${{ env.P_VER }}
+        run: |
+          envs=${{env}}
+          variables=("P_VER" "P_NAME" "P_PATH")
+          for var in "${variables[@]}"; do
+            if [[ -z "${envs[$var]}" ]]; then
+              echo "环境变量 $var 不存在"
+              exit 1
+            else
+              echo "环境变量 $var 存在"
+            fi
+          done
       # docker build -f ./apps/console/Dockerfile -t api7/api7-ee-3-console:dev .
 
       # - name: Login to Registry
