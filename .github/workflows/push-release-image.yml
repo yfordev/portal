@@ -1,8 +1,11 @@
 name: Build And Push Release Docker Image (Prod Env)
 on:
-  push:
-    tags:
-      - '**'
+  release:
+    types:
+      - published
+  # push:
+  #   tags:
+  #     - '**'
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
