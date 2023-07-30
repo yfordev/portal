@@ -98,9 +98,10 @@ jobs:
         env:
           IMAGE_TAG: ${{ env.P_VER }}
         run: |
+          envs=${{ env }}
           variables=("P_VER" "P_NAME" "P_PATH")
           for var in "${variables[@]}"; do
-            if [[ -z "${{ env[$var]" }}]]; then
+            if [[ -z "${envs[$var]}" ]]; then
               echo "环境变量 $var 不存在"
               exit 1
             else
