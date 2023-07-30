@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    tags:
+      - '**'
 
 permissions:
   contents: write
@@ -11,11 +13,14 @@ permissions:
   pull-requests: write
   statuses: write
 
-concurrency: ${{ github.workflow }}-${{ github.ref }}
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   release:
     name: Release
+    if: github.ref != 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -58,3 +63,48 @@ jobs:
           publish: pnpm release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  build-and-push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    needs: release
+    if: startsWith(github.ref, 'refs/tags/')
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set image tag
+        id: version
+        run: |
+          # parse tag
+          ref=$GITHUB_REF
+          tag=${ref##*/}
+          IFS='@' read -ra parts <<< "$tag"
+          # map file path
+          declare -A file_map
+          file_map["developer"]="./packages/developer"
+          file_map["provider"]="./packages/provider"
+          file_map["resolce"]="./packages/resolce"
+          file_map["base"]="./components/base"
+          # 
+          echo "P_NAME=${parts[0]}" >> $GITHUB_ENV
+          echo "P_VER=v${parts[1]}" >> $GITHUB_ENV
+          echo "P_PATH=${file_map[parts[0]]}" >> $GITHUB_ENV
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Build ${{ env.P_NAME }}  Image
+        env:
+          IMAGE_TAG: ${{ env.P_VER }}
+        run: |
+          variables=("P_VER" "P_NAME" "P_PATH")
+          for var in "${variables[@]}"; do
+            if [[ -z "${{ env[$var]" }}]]; then
+              echo "环境变量 $var 不存在"
+              exit 1
+            else
+              echo "环境变量 $var 存在"
+            fi
+          done
+          # docker build -f ./apps/console/Dockerfile -t api7/api7-ee-3-console:dev .
