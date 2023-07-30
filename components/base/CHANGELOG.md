@@ -1,5 +1,13 @@
 # base
 
+## 1.1.3
+
+### Patch Changes
+
+- [#30](https://github.com/yfordev/portal/pull/30) [`ac1c132`](https://github.com/yfordev/portal/commit/ac1c132c6ab86029aff4c8c9b384d4743e1cc98e) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - fix
+
+- [#39](https://github.com/yfordev/portal/pull/39) [`fc599ea`](https://github.com/yfordev/portal/commit/fc599ea9ee096c993d08c484fa84522f5658f317) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - fix: workflow
+
 ## 1.1.2
 
 ### Patch Changes
