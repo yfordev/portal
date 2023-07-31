@@ -1,5 +1,11 @@
 # base
 
+## 1.1.6
+
+### Patch Changes
+
+- [#46](https://github.com/yfordev/portal/pull/46) [`df4c522`](https://github.com/yfordev/portal/commit/df4c5223f2aaaa6cb0d21074bfae3e75ef710612) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - try: 61
+
 ## 1.1.5
 
 ### Patch Changes
