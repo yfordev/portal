@@ -3,7 +3,7 @@ import moment from 'moment';
 import { RouterContext } from 'next/dist/shared/lib/router-context';
 
 import { createMockRouter } from '@/test-utils/createRouterMock';
-// next
+// ne
 import TimeFormat, { absoluteTimeFormat } from '..';
 
 describe('TimeFormat', () => {
