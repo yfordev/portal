@@ -33,7 +33,7 @@ jobs:
           # 
           echo "P_NAME=${parts[0]}" >> $GITHUB_ENV
           echo "P_VER=v${parts[1]}" >> $GITHUB_ENV
-          echo "P_PATH=${file_map[parts[0]]}" >> $GITHUB_ENV
+          echo "P_PATH=${file_map[${parts[0]}]}" >> $GITHUB_ENV
 
       - uses: actions/setup-node@v3
         with:
