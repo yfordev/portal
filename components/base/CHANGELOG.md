@@ -1,5 +1,11 @@
 # base
 
+## 1.1.9
+
+### Patch Changes
+
+- [#56](https://github.com/yfordev/portal/pull/56) [`3f03462`](https://github.com/yfordev/portal/commit/3f03462488557a0b979857e0f27ea292b14a1668) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - fix: adjalskdajsdlk
+
 ## 1.1.8
 
 ### Patch Changes
