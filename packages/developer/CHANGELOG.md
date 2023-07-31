@@ -1,5 +1,12 @@
 # developer
 
+## 1.0.13
+
+### Patch Changes
+
+- Updated dependencies [[`3f03462`](https://github.com/yfordev/portal/commit/3f03462488557a0b979857e0f27ea292b14a1668)]:
+  - base@1.1.9
+
 ## 1.0.12
 
 ### Patch Changes
