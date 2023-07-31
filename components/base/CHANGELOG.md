@@ -1,5 +1,11 @@
 # base
 
+## 1.1.5
+
+### Patch Changes
+
+- [#44](https://github.com/yfordev/portal/pull/44) [`ee44b6e`](https://github.com/yfordev/portal/commit/ee44b6eb6f1a2198e533e699a456e2b9b4f39eb4) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - Revert "fix: wrong things"
+
 ## 1.1.4
 
 ### Patch Changes
