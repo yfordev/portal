@@ -6,7 +6,7 @@ import moment from 'moment';
 // following line is required to make momentjs work with nextjs
 // should import every locale you want to use
 // import 'moment/locale/zh-cn';
-///kdaksakjdl
+///kdaks
 
 type Props = {
   time: moment.MomentInput;
