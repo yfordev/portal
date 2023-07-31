@@ -1,5 +1,11 @@
 # base
 
+## 1.1.7
+
+### Patch Changes
+
+- [#49](https://github.com/yfordev/portal/pull/49) [`3a45d82`](https://github.com/yfordev/portal/commit/3a45d8243d6930004cee3a43a50d3dc6349b39b9) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - fix: auth
+
 ## 1.1.6
 
 ### Patch Changes
