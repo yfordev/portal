@@ -1,5 +1,11 @@
 # base
 
+## 1.1.8
+
+### Patch Changes
+
+- [#54](https://github.com/yfordev/portal/pull/54) [`8dc1b11`](https://github.com/yfordev/portal/commit/8dc1b119b748a34b8bf83e8bcc755f29163975d1) Thanks [@SkyeYoung](https://github.com/SkyeYoung)! - Revert "fix: all"
+
 ## 1.1.7
 
 ### Patch Changes

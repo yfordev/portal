@@ -1,5 +1,12 @@
 # resolce
 
+## 0.1.10
+
+### Patch Changes
+
+- Updated dependencies [[`8dc1b11`](https://github.com/yfordev/portal/commit/8dc1b119b748a34b8bf83e8bcc755f29163975d1)]:
+  - base@1.1.8
+
 ## 0.1.9
 
 ### Patch Changes
